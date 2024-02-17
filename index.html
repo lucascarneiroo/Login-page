@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie a sua Conta</h1>
+                <div class="midia-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <span>Crie a sua conta com:</span>
+                <input type="text" 
+                placeholder="Name">
+                <input type="email"
+                placeholder="Email">
+                <input type="senha"
+                placeholder="Senha">
+                <button>Registra-se</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Conecte-se</h1>
+                <div class="midia-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <span>Use o email e a senha</span>
+                <input type="email"
+                placeholder="Email">
+                <input type="senha"
+                placeholder="Senha">
+                <a href="#">Esqueceu a Senha?</a>
+                <button>Conectar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem Vindo de Volta!</h1>
+                    <p>Entre com o seu email e senha</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá!</h1>
+                    <p>Registre com o seu email e senha</p>
+                    <button class="hidden" id="register">Registre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
